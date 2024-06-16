@@ -1,0 +1,38 @@
+:root{
+    --secondaryFontFamily:"Young Serif";
+    --ulPadding:9px;
+    --lipadding:6px;
+    --tableValuesColor:hsl(14, 45%, 36%);
+    --justifyText : justify;
+    --OtherTextFontFamily:"Outfit";
+}
+
+p, ol>li{
+    text-align: var(--justifyText);
+}
+
+h1,h2{
+    font-family: var(--secondaryFontFamily);
+    color:hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+p{
+    font-size: 16px;
+    font-family: var(--OtherTextFontFamily);
+}
+
+ul{
+    padding:var(--ulPadding) 0px;
+}
+
+li{
+    padding:var(--lipadding) 0px;
+}
+
+
+.table_values{
+    color:var(--tableValuesColor);
+    font-weight: 600;
+}
+
